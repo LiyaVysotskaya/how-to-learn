@@ -129,21 +129,19 @@
 .digits {
   display: flex;
   flex-wrap: wrap;
-  margin: 100px 0px;
+  margin: 0;
+  padding: 100px 0;
 }
 
 .section-title {
   width: 60%;
-  margin: auto;
+  margin: 0 auto;
   padding: 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  text-align: center;
-}
-
-.digits__title {
   color: #000000;
+  text-align: center;
 }
 
 .section-subtitle {
@@ -153,11 +151,8 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  text-align: center;
-}
-
-.digits__subtitle {
   color: #000000;
+  text-align: center;
 }
 
 /*Таблица*/
@@ -215,8 +210,8 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
-  text-align: center;
   color: #000000;
+  text-align: center;
 }
 
 .feynman__subtitle {
@@ -225,8 +220,8 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  text-align: center;
   color: #000000;
+  text-align: center;
 }
 
 .feynman__link {
@@ -243,9 +238,85 @@
   text-decoration: none;
 }
 
+/*Кауфман*/
+.kaufman {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 90px 0;
+  background-color: #1f1f1f;
+  overflow: hidden;
+}
+
+.section-title_theme_dark {
+  width: 60%;
+  margin: auto;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+.section-subtitle_theme_dark {
+  width: 60%;
+  margin: 20px auto 0;
+  padding: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+}
+
+.table_theme_dark{
+  width: 1100px;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-between;
+  z-index: 1;
+}
+
 .table__cell_theme_dark {
   width: 200px;
   margin-right: 0;
   margin-top: 80px;
   color: white;
 }
+
+.table__heading_theme_dark{
+  margin: 0;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+.table__text_theme_dark{
+  margin: 20px 0 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  position:absolute;
+  right: -210px;
+  top: 0;
+}
+
+/*Подвал
+.footer {
+  min-height: 350px;
+  padding: 60px 0 40px;
+}
+*/
