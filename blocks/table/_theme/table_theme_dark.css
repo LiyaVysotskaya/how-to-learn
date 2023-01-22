@@ -1,0 +1,5 @@
+.table_theme_dark {
+  position: relative;
+  grid-template-columns: auto auto auto auto auto;
+  z-index: 1;
+}
