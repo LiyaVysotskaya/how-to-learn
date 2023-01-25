@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/normalize.css">
+  <link rel="stylesheet" href="/vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -15,9 +15,40 @@
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a class="header__link" href="#">Узнать →</a></p>
       <img src="./images/header-image.png" class="header__main-illustration" alt="Картина художника Фёдора Решетникова Опять двойка">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
+      <section class="techniques">
+        <h2 class="section-title">Техники обучения</h2>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+        <ul class="cards">
+            <li class="cards__item">
+              <img class="cards__image" alt="attention" src="./images/cards-attention.png">
+              <h4 class="cards__title">Два вида внимания</h4>
+              <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+            </li>
+            <li class="cards__item">
+              <img class="cards__image" alt="Recall" src="./images/cards-recall.png">
+              <h4 class="cards__title">Recall</h4>
+              <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+            </li>
+            <li class="cards__item">
+              <img class="cards__image" alt="interliving" src="./images/cards-interliving.png">
+              <h4 class="cards__title">Интерливинг</h4>
+              <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+            </li>
+            <li class="cards__item">
+              <img class="cards__image" alt="Questions" src="./images/cards-question.png">
+              <h4 class="cards__title">Вопросы</h4>
+              <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+            </li>
+            <li class="cards__item">
+              <img class="cards__image" alt="Competence" src="./images/cards-competence.png">
+              <h4 class="cards__title">Иллюзия компетентности</h4>
+              <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+            </li>
+        </ul>
+      </section>
       <section class="description" aria-label="Секция со статьей">
         <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
@@ -123,7 +154,7 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
     </main>
     <footer class="footer">

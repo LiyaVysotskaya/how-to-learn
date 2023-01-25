@@ -3,5 +3,9 @@
   padding: 0;
   color: #2f80ed;
   text-decoration: none;
+  transition: opacity .4s;
   z-index: 2;
 }
+  .header__link:hover {
+    opacity: 0.5;
+  }
