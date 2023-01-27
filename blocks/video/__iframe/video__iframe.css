@@ -1,8 +1,11 @@
 .video__iframe {
+  width: 515px;
+  height: 316px;
   margin-right: 20px;
   position: relative;
-  top: 60px;
+  top: 50px;
   left: 0;
+  border: none;
   z-index: 2;
 }
 .video__iframe:last-child {

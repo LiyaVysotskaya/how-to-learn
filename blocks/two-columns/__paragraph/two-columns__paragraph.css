@@ -6,3 +6,6 @@
   font-weight: normal;
   color: #000000;
 }
+  .two-columns__paragraph:last-child {
+    margin-bottom: 0;
+  }
